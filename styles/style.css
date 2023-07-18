@@ -12,11 +12,21 @@ img {
     max-width: 100%;
 }
 
+
+/* Common Shared CSS */
 .pink {
     color: #FF42A5;
 }
-
-/* Common Shared CSS */
+.primary-btn{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FFF;
+    padding: 1.25rem 2.5rem;
+    border-radius: 3rem;
+}
+.follow-box a i, .banner-items i{
+    font-size: 1.5rem;
+}
 
 /* Header Section */
 
@@ -73,6 +83,31 @@ nav {
     border-radius: 0.5rem;
 }
 
-.follow-box a i {
-    font-size: 1.5rem;
+
+/* Banner Section CSS */
+.banner-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4.5rem;
+}
+.banner-content {
+    background-image: url(../images/Group\ 14.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 9.25rem;
+}
+.banner-content h3{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #0B0223;
+}
+.banner-items li{
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1.125rem;
+}
+.banner-items p{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #534C64;
 }
