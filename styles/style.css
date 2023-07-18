@@ -29,9 +29,9 @@ nav{
 .nav-right li{
     list-style: none;
 }
-.nav-right a{
+.nav-right li a{
     text-decoration: none;
-    margin-right: 32px;
+    margin: 32px;
 }
 .follow-box{
     display: flex;
