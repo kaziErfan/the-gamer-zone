@@ -101,8 +101,8 @@ nav {
 
 /* Banner Section CSS */
 .banner-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-between;
     padding: 0rem 12.5rem;
     background-image: url(../images/Group\ 14.png);
     background-size: contain;
@@ -151,4 +151,19 @@ nav {
 }
 .banner-image{
 
+}
+
+
+
+
+
+@media screen and (max-width: 576px){
+    nav, .nav-right, .nav-right > ul{
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
+    }
+    .nav-left{
+        margin-bottom: 2rem;
+    }
 }
