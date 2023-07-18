@@ -6,3 +6,33 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+img{
+    max-width: 100%;
+}
+
+/* Common Shared CSS */
+
+/* Header Section */
+
+/* Nav Bar related CSS */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.75rem 15rem;
+}
+.nav-right {
+    display: flex;
+}
+.nav-right > ul{
+    display: flex;
+}
+.nav-right li{
+    list-style: none;
+}
+.nav-right a{
+    text-decoration: none;
+    margin-right: 32px;
+}
+.follow-box{
+    display: flex;
+}
