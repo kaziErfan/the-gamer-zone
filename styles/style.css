@@ -1,13 +1,19 @@
 /* Applied on Entire Page */
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Work Sans', sans-serif;
 }
-img{
+
+img {
     max-width: 100%;
+}
+
+.pink {
+    color: #FF42A5;
 }
 
 /* Common Shared CSS */
@@ -15,24 +21,58 @@ img{
 /* Header Section */
 
 /* Nav Bar related CSS */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
-    padding: 2.75rem 15rem;
+    padding: 1.5rem 12.5rem;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.nav-left h3 {
+    font-size: 2.8rem;
+    color: #0B0223;
+    font-weight: 700;
+}
+
 .nav-right {
     display: flex;
+    gap: 2rem;
+    align-items: center;
+
 }
-.nav-right > ul{
+
+.nav-right>ul {
     display: flex;
+    gap: 2rem;
 }
-.nav-right li{
+
+.nav-right li {
     list-style: none;
 }
-.nav-right li a{
+
+.nav-right li a,
+.follow-box p {
     text-decoration: none;
-    margin: 32px;
+    font-size: 1.125rem;
+    color: #3C354F;
+    font-weight: 500;
 }
-.follow-box{
+
+.follow-box {
     display: flex;
+    gap: 1.5rem;
+    background-color: #e7e6e9;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.follow-box a i {
+    font-size: 1.5rem;
 }
