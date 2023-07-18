@@ -1,4 +1,8 @@
+/* Applied on Entire Page */
 *{
     margin: 0;
     padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
 }
