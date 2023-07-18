@@ -17,14 +17,29 @@ img {
 .pink {
     color: #FF42A5;
 }
-.primary-btn{
+
+.primary-btn {
     font-size: 1.25rem;
     font-weight: 600;
     color: #FFF;
     padding: 1.25rem 2.5rem;
     border-radius: 3rem;
+    border: 0;
+    cursor: pointer;
+
 }
-.follow-box a i, .banner-items i{
+
+.btn-one {
+    background-color: #FF42A5;
+}
+
+.btn-two {
+    background-color: #4EC5F7;
+    margin-left: 1.5rem;
+}
+
+.follow-box a i,
+.banner-items i {
     font-size: 1.5rem;
 }
 
@@ -85,29 +100,55 @@ nav {
 
 
 /* Banner Section CSS */
-.banner-section{
+.banner-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 4.5rem;
-}
-.banner-content {
+    padding: 0rem 12.5rem;
     background-image: url(../images/Group\ 14.png);
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 9.25rem;
+   
+    
 }
-.banner-content h3{
+.banner-info {
+    
+    padding: 9.25rem 0rem;
+   
+    
+}
+
+.banner-info h3 {
     font-size: 2.8rem;
     font-weight: 600;
     color: #0B0223;
 }
-.banner-items li{
+
+.banner-info h2 {
+    font-size: 5.8rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-items {
+    margin-bottom: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+.banner-items li {
     display: flex;
     gap: 0.75rem;
     margin-bottom: 1.125rem;
 }
-.banner-items p{
+
+.banner-items p {
     font-size: 1.25rem;
     font-weight: 500;
     color: #534C64;
+
+}
+.banner-image{
+
 }
