@@ -195,10 +195,16 @@ nav {
     margin-bottom: 1rem;
 }
 
-.card{
+.card-box{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    gap: 1.25rem;
+}
+.card-caption{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #534C64;
+    margin-top: 1.5rem;
 }
 
 
