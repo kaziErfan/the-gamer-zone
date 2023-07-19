@@ -233,7 +233,6 @@ nav {
     .banner-content{
         flex-direction: column-reverse;
         margin: 0 1.25rem;
-        align-items: ;
     }
     .banner-info{
         width: 100%;
@@ -244,5 +243,21 @@ nav {
         padding-top: 5rem;
         padding-left: 1.25rem;
     }
-    
+    .game-video-section{
+        padding: 0;
+    }
+    .game-video-container{
+        margin: 2rem 2.5rem;
+        padding: 1.25rem;
+    }
+    .card-box{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0rem 2.5rem;
+    }
+    .card{
+        text-align: center;
+    }
+    .card > p{
+        margin: 0.5rem;
+    }
 }
