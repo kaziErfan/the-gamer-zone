@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    font-size: 16px;
+}
 
 body {
     font-family: 'Work Sans', sans-serif;
@@ -121,26 +124,23 @@ nav {
 
 /* Banner Section CSS */
 .banner-section {
-    display: flex;
-    justify-content: space-between;
-    gap: 3rem;
     background-color: #fff;
-
-
-
-}
-
-.banner-content {
     background-image: url('../images/Group\ 14.png');
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-left: 12.5rem;
+    background-position: left;
+    background-size: contain;
+    padding: 0 12.5rem;
 }
+.banner-content{
+    display: flex;
+    gap: 5rem;
+}
+
 
 .banner-info {
     padding-top: 7rem;
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
+    width: 60%;
 }
 
 .banner-info h3 {
@@ -156,6 +156,9 @@ nav {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.banner-info a{
+    text-decoration: none;
 }
 
 .banner-items {
@@ -176,10 +179,8 @@ nav {
     color: #534C64;
 
 }
-
 .banner-image {
-    padding-right: 12.5rem;
-    width: 40%;
+    padding-top: 1.5rem;
 }
 
 /* Game Video Section CSS */
@@ -201,7 +202,6 @@ nav {
     gap: 1.25rem;
 }
 .card-caption{
-    font-size: 1rem;
     font-weight: 500;
     color: #534C64;
     margin-top: 1.5rem;
@@ -212,36 +212,37 @@ nav {
 
 
 
+.hide{
+    display: none;
+}
 @media screen and (max-width: 576px) {
-
-    nav,
-    .nav-right,
-    .nav-right ul {
+    nav, .nav-right, .nav-right > ul{
         flex-direction: column;
-        width: 100%;
         align-items: center;
-    }
+        padding: 0;
 
-    .banner-section {
+    }
+    .nav-left{
+        margin-bottom: 3rem;
+        padding-top: 2rem;
+    }
+    .banner-section{
+        padding: 0;
+        background-image: none;
+    }
+    .banner-content{
         flex-direction: column-reverse;
-        margin-top: 5rem;
+        margin: 0 1.25rem;
+        align-items: ;
     }
-
-    .banner-image,
-    .banner-content {
+    .banner-info{
         width: 100%;
-        padding-left: 12.5rem;
+        background-image: url('../images/Group\ 14.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding-top: 5rem;
+        padding-left: 1.25rem;
     }
-
-    .nav-left {
-        margin-bottom: 4rem;
-    }
-
-    .nav-right>ul {
-        margin-bottom: 2rem;
-    }
-
-    .banner-content {
-        margin: 0 6rem;
-    }
+    
 }
