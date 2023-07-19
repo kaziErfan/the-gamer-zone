@@ -43,6 +43,21 @@ img {
     font-size: 1.5rem;
 }
 
+.section-description {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #534C64;
+}
+
+.linear-text {
+    font-size: 2.8rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* Header Section */
 
 /* Nav Bar related CSS */
@@ -73,7 +88,7 @@ nav {
 
 }
 
-.nav-right > ul {
+.nav-right>ul {
     display: flex;
     gap: 2rem;
 }
@@ -105,11 +120,12 @@ nav {
     justify-content: space-between;
     gap: 3rem;
     background-color: #fff;
-   
-   
+
+
 
 }
-.banner-content{
+
+.banner-content {
     background-image: url('../images/Group\ 14.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -140,7 +156,7 @@ nav {
 .banner-items {
     margin-bottom: 2.5rem;
     margin-top: 1.5rem;
-    
+
 }
 
 .banner-items li {
@@ -161,6 +177,12 @@ nav {
     width: 40%;
 }
 
+/* Game Video Section CSS */
+
+.game-video-section{
+    padding-top: 7.5rem;
+}
+
 
 
 
@@ -168,26 +190,34 @@ nav {
 
 @media screen and (max-width: 576px) {
 
-    nav, .nav-right, .nav-right ul{
+    nav,
+    .nav-right,
+    .nav-right ul {
         flex-direction: column;
         width: 100%;
         align-items: center;
     }
-    .banner-section{
+
+    .banner-section {
         flex-direction: column-reverse;
         margin-top: 5rem;
-    }   
-    .banner-image, .banner-content{
+    }
+
+    .banner-image,
+    .banner-content {
         width: 100%;
         padding-left: 12.5rem;
     }
-    .nav-left{
+
+    .nav-left {
         margin-bottom: 4rem;
     }
-    .nav-right > ul{
+
+    .nav-right>ul {
         margin-bottom: 2rem;
     }
-    .banner-content{
+
+    .banner-content {
         margin: 0 6rem;
     }
 }
