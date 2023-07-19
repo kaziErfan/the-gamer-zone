@@ -205,6 +205,10 @@ nav {
 .banner-image {
     padding-top: 1.5rem;
 }
+#circle, #download-icon{
+    color: #FF42A5;
+}
+
 
 /* Gamers Section CSS */
 
@@ -213,6 +217,9 @@ nav {
     grid-area: 3.25rem;
     background-color: #fff9fc;
     padding-top: 6rem;
+}
+.gamers-image{
+    padding-right: 2rem;
 }
 .gamers-content{
     width: 67%;
@@ -236,6 +243,7 @@ nav {
     font-size: 2rem;
     font-weight: 700;
     color: #534C64;
+    padding-bottom: 6rem;
 }
 
 /* Game Video Section CSS */
