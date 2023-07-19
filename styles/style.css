@@ -65,7 +65,10 @@ img {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.section-width{
+    padding-left: 12.5rem;
+    padding-right: 12.5rem;
+}
 /* Header Section */
 
 /* Nav Bar related CSS */
@@ -206,6 +209,24 @@ nav {
     color: #534C64;
     margin-top: 1.5rem;
 }
+
+
+/* Feature Seciton CSS */
+.feature-section{
+    display: flex;
+    gap: 10rem;
+}
+.feature-content {
+    text-align: right;
+    width: 40%;
+    margin: 12.5rem 3rem;
+}
+.img-card {
+    position: relative;
+    bottom: 250px;
+    right: 120px;
+}
+
 
 
 
