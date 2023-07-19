@@ -250,7 +250,39 @@ nav {
     right: 120px;
 }
 
-
+/* Games Section CSS */
+.games{
+    margin-bottom: 8rem;
+}
+.first-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.5rem;
+    margin-bottom: 3rem;
+}
+.second-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 3rem;
+    gap: 1.5rem;
+}
+.game-type {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: .5s ease-in-out;
+    border: 0;
+}
+.game-type:hover {
+    border: 2px solid #FF42A5;
+    border-radius: 3rem;
+}
+.game-type:hover .game-info{
+    color:#FF42A5
+}
+.game-icon{
+    padding: .375rem;
+}
 
 
 
