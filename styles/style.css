@@ -73,7 +73,7 @@ nav {
 
 }
 
-.nav-right>ul {
+.nav-right > ul {
     display: flex;
     gap: 2rem;
 }
@@ -103,18 +103,23 @@ nav {
 .banner-section {
     display: flex;
     justify-content: space-between;
-    padding: 0rem 12.5rem;
-    background-image: url(../images/Group\ 14.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    gap: 3rem;
+    background-color: #fff;
    
-    
+   
+
 }
+.banner-content{
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 12.5rem;
+}
+
 .banner-info {
-    
-    padding: 9.25rem 0rem;
-   
-    
+    padding-top: 7rem;
+    margin-bottom: 3rem;
 }
 
 .banner-info h3 {
@@ -135,6 +140,7 @@ nav {
 .banner-items {
     margin-bottom: 2.5rem;
     margin-top: 1.5rem;
+    
 }
 
 .banner-items li {
@@ -149,21 +155,39 @@ nav {
     color: #534C64;
 
 }
-.banner-image{
 
+.banner-image {
+    padding-right: 12.5rem;
+    width: 40%;
 }
 
 
 
 
 
-@media screen and (max-width: 576px){
-    nav, .nav-right, .nav-right > ul{
+
+@media screen and (max-width: 576px) {
+
+    nav, .nav-right, .nav-right ul{
         flex-direction: column;
+        width: 100%;
         align-items: center;
-        padding: 0.5rem;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+        margin-top: 5rem;
+    }   
+    .banner-image, .banner-content{
+        width: 100%;
+        padding-left: 12.5rem;
     }
     .nav-left{
+        margin-bottom: 4rem;
+    }
+    .nav-right > ul{
         margin-bottom: 2rem;
+    }
+    .banner-content{
+        margin: 0 6rem;
     }
 }
