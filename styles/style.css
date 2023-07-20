@@ -478,12 +478,26 @@ nav {
         text-align: center;
         padding: 4rem 2.5rem;
     }
-    .gamers-section {
+    .gamers-section, .feature-section {
         padding: 0;
         flex-direction: column;
     }
     .goals h6{
         margin-top: 1rem;
+    }
+    .feature-content {
+        width: 80%;
+        text-align: center;
+        margin: 0rem 2.5rem;
+    }
+    .featured-game {
+        width: 70%;
+        margin: 0 4rem;
+    }
+    .img-card {
+        width: 50%;
+        bottom: 9.25rem;
+        right: 2.8rem;
     }
 
     .game-video-section {
