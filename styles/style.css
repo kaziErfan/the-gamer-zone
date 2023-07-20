@@ -485,10 +485,14 @@ nav {
     .goals h6{
         margin-top: 1rem;
     }
-    .feature-content {
+    .feature-content, .games {
         width: 80%;
         text-align: center;
         margin: 0rem 2.5rem;
+    }
+    .games-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
     .featured-game {
         width: 70%;
