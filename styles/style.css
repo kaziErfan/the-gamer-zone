@@ -39,7 +39,7 @@ img {
 
 .btn-two {
     background-color: #4EC5F7;
-    margin-left: 1.5rem;
+    margin-left: 0.5rem;
 }
 
 .follow-box a i,
@@ -222,7 +222,7 @@ nav {
     padding-right: 2rem;
 }
 .gamers-content{
-    width: 67%;
+    width: 71%;
     text-align: right;
 }
 .gamers-content h3{
@@ -473,6 +473,18 @@ nav {
         padding-top: 5rem;
         padding-left: 1.25rem;
     }
+    .gamers-content {
+        width: 80%;
+        text-align: center;
+        padding: 4rem 2.5rem;
+    }
+    .gamers-section {
+        padding: 0;
+        flex-direction: column;
+    }
+    .goals h6{
+        margin-top: 1rem;
+    }
 
     .game-video-section {
         padding: 5rem 0;
@@ -495,4 +507,5 @@ nav {
     .card>p {
         margin: 0.5rem;
     }
+
 }
