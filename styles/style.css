@@ -525,5 +525,17 @@ nav {
     .card>p {
         margin: 0.5rem;
     }
+    .footer-section {
+        width: 80%;
+        padding: 0 2.5rem;
+    }
+    
+    
+    .footer-nav > ul, .social-icons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin: 2rem 2rem;
+    }
 
 }
